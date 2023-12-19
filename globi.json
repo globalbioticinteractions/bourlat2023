@@ -1,0 +1,97 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "oo_885016.tsv",
+    "dcterms:bibliographicCitation" : "Bourlat SJ, Koch M, Kirse A, Langen K, Espeland M, Giebner H, Decher J, Ssymank A, Fonseca VG (2023) Metabarcoding dietary analysis in the insectivorous bat Nyctalus leisleri and implications for conservation. Biodiversity Data Journal 11: e111146. https://doi.org/10.3897/BDJ.11.e111146",
+    "doi": "10.3897/BDJ.11.e111146",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "eats",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002470",
+    "sourceTaxonName": "Nyctalus leisleri",
+    "sourceTaxonOrderName": "Chiroptera",
+    "localityName": "Waldreservat Kottenforst",
+    "localityId": "GEONAMES:2885172",
+    "decimalLatitude": "50.77",
+    "decimalLongitude": "6.83",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "KF01-01",
+        "titles" : "KF01-01",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-02",
+        "titles" : "KF01-02",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-03",
+        "titles" : "KF01-03",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-06",
+        "titles" : "KF01-06",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-07",
+        "titles" : "KF01-07",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-08",
+        "titles" : "KF01-08",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-09",
+        "titles" : "KF01-09",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-10",
+        "titles" : "KF01-10",
+        "datatype" : "string"
+      }, {
+        "name" : "KF01-11",
+        "titles" : "KF01-11",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonKingdomName",
+        "titles" : "Kingdom",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonPhylumName",
+        "titles" : "Phylum",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonClassName",
+        "titles" : "Class",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonOrderName",
+        "titles" : "Order",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "Family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonGenusName",
+        "titles" : "Genus",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSpeciesName",
+        "titles" : "Species",
+        "datatype" : "string"
+      }, {
+        "name" : "Marker",
+        "titles" : "Marker",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
